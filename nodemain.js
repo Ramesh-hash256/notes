@@ -36,13 +36,13 @@ const server = http.createServer((req, res) => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Contact <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Services <span class="sr-only">(current)</span></a>
                 </li>
 
 
@@ -97,7 +97,7 @@ const server = http.createServer((req, res) => {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="../Node/nodelocalstorage.js"></script>
+    <script src="./nodelocalstorage.js"></script>
 </body>
 
 </html>
